@@ -3,24 +3,21 @@
   font-family: "Nunito";
   font-style: normal;
   font-weight: 400;
-  src: local("Nunito Regular"), local("Nunito-Regular"), url("../fonts/nunito-v12-latin-ext_latin-regular.woff2") format("woff2"), url("../fonts/nunito-v12-latin-ext_latin-regular.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local("Nunito Regular"), local("Nunito-Regular"), url("../fonts/nunito-v12-latin-ext_latin-regular.woff2") format("woff2"), url("../fonts/nunito-v12-latin-ext_latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* nunito-600 - latin-ext_latin */
 @font-face {
   font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
-  src: local("Nunito SemiBold"), local("Nunito-SemiBold"), url("../fonts/nunito-v12-latin-ext_latin-600.woff2") format("woff2"), url("../fonts/nunito-v12-latin-ext_latin-600.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local("Nunito SemiBold"), local("Nunito-SemiBold"), url("../fonts/nunito-v12-latin-ext_latin-600.woff2") format("woff2"), url("../fonts/nunito-v12-latin-ext_latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* nunito-700 - latin-ext_latin */
 @font-face {
   font-family: "Nunito";
   font-style: normal;
   font-weight: 700;
-  src: local("Nunito Bold"), local("Nunito-Bold"), url("../fonts/nunito-v12-latin-ext_latin-700.woff2") format("woff2"), url("../fonts/nunito-v12-latin-ext_latin-700.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local("Nunito Bold"), local("Nunito-Bold"), url("../fonts/nunito-v12-latin-ext_latin-700.woff2") format("woff2"), url("../fonts/nunito-v12-latin-ext_latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 * {
   box-sizing: border-box;
@@ -313,7 +310,7 @@ html {
   margin: 0 30px 40px 30px;
 }
 .landing-body .landing-pricing .widget-pricing-card.deal {
-  background-image: linear-gradient(45deg, #105da1 0%, #1f8ce3 100%);
+  background-image: linear-gradient(45deg, rgb(16, 93, 161) 0%, rgb(31, 140, 227) 100%);
 }
 .landing-body .landing-pricing .widget-pricing-card > span {
   display: block;
@@ -620,7 +617,7 @@ html {
     max-height: 170px;
   }
   .landing-body .landing-wrapper .landing-contact {
-    background-image: linear-gradient(45deg, #105da1 0%, #1f8ce3 100%);
+    background-image: linear-gradient(45deg, rgb(16, 93, 161) 0%, rgb(31, 140, 227) 100%);
   }
   .landing-body .landing-wrapper .landing-contact .contact-wrapper .contact-left {
     width: 100%;

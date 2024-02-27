@@ -3,22 +3,19 @@
   font-family: "Nunito";
   font-style: normal;
   font-weight: 400;
-  src: local("Nunito Regular"), local("Nunito-Regular"), url("../../layout/fonts/nunito-v12-latin-ext_latin-regular.woff2") format("woff2"), url("../../layout/fonts/nunito-v12-latin-ext_latin-regular.woff") format("woff");
-  /* Modern Browsers */
+  src: local("Nunito Regular"), local("Nunito-Regular"), url("../../layout/fonts/nunito-v12-latin-ext_latin-regular.woff2") format("woff2"), url("../../layout/fonts/nunito-v12-latin-ext_latin-regular.woff") format("woff"); /* Modern Browsers */
 }
 @font-face {
   font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
-  src: local("Nunito SemiBold"), local("Nunito-SemiBold"), url("../../layout/fonts/nunito-v12-latin-ext_latin-600.woff2") format("woff2"), url("../../layout/fonts/nunito-v12-latin-ext_latin-600.woff") format("woff");
-  /* Modern Browsers */
+  src: local("Nunito SemiBold"), local("Nunito-SemiBold"), url("../../layout/fonts/nunito-v12-latin-ext_latin-600.woff2") format("woff2"), url("../../layout/fonts/nunito-v12-latin-ext_latin-600.woff") format("woff"); /* Modern Browsers */
 }
 @font-face {
   font-family: "Nunito";
   font-style: normal;
   font-weight: 700;
-  src: local("Nunito Bold"), local("Nunito-Bold"), url("../../layout/fonts/nunito-v12-latin-ext_latin-700.woff2") format("woff2"), url("../../layout/fonts/nunito-v12-latin-ext_latin-700.woff") format("woff");
-  /* Modern Browsers */
+  src: local("Nunito Bold"), local("Nunito-Bold"), url("../../layout/fonts/nunito-v12-latin-ext_latin-700.woff2") format("woff2"), url("../../layout/fonts/nunito-v12-latin-ext_latin-700.woff") format("woff"); /* Modern Browsers */
 }
 /* Utils */
 .clearfix:after {
@@ -796,7 +793,7 @@ a {
     display: none;
   }
   .layout-wrapper.layout-slim .layout-menu .layout-root-menuitem > a,
-.layout-wrapper.layout-slim .layout-menu .layout-root-menuitem > .p-link {
+  .layout-wrapper.layout-slim .layout-menu .layout-root-menuitem > .p-link {
     display: block;
     text-align: center;
     border-radius: 4px;
@@ -807,15 +804,15 @@ a {
     width: 100%;
   }
   .layout-wrapper.layout-slim .layout-menu .layout-root-menuitem > a .layout-submenu-toggler,
-.layout-wrapper.layout-slim .layout-menu .layout-root-menuitem > .p-link .layout-submenu-toggler {
+  .layout-wrapper.layout-slim .layout-menu .layout-root-menuitem > .p-link .layout-submenu-toggler {
     display: none;
   }
   .layout-wrapper.layout-slim .layout-menu .layout-root-menuitem > a .layout-menuitem-icon,
-.layout-wrapper.layout-slim .layout-menu .layout-root-menuitem > .p-link .layout-menuitem-icon {
+  .layout-wrapper.layout-slim .layout-menu .layout-root-menuitem > .p-link .layout-menuitem-icon {
     font-size: 1.25rem;
   }
   .layout-wrapper.layout-slim .layout-menu .layout-root-menuitem > a .layout-menuitem-text,
-.layout-wrapper.layout-slim .layout-menu .layout-root-menuitem > .p-link .layout-menuitem-text {
+  .layout-wrapper.layout-slim .layout-menu .layout-root-menuitem > .p-link .layout-menuitem-text {
     font-size: 0.875rem;
     display: block;
     margin-top: 0.25rem;
@@ -1219,7 +1216,6 @@ a {
   .blocked-scroll {
     overflow: hidden;
   }
-
   .layout-wrapper .layout-topbar {
     height: 7.125rem;
     -ms-flex-wrap: wrap;
@@ -1271,7 +1267,7 @@ a {
     padding: 0;
   }
   .layout-wrapper .layout-topbar .topbar-menu > li.profile-item > a,
-.layout-wrapper .layout-topbar .topbar-menu > li.profile-item > .p-link {
+  .layout-wrapper .layout-topbar .topbar-menu > li.profile-item > .p-link {
     padding: 0;
   }
   .layout-wrapper .layout-topbar .topbar-menu > li.profile-item .profile-image {
@@ -1460,7 +1456,7 @@ a {
 }
 @media screen and (max-width: 960px) {
   .layout-dashboard .p-datatable.p-datatable-products .p-datatable-thead > tr > th,
-.layout-dashboard .p-datatable.p-datatable-products .p-datatable-tfoot > tr > td {
+  .layout-dashboard .p-datatable.p-datatable-products .p-datatable-tfoot > tr > td {
     display: none !important;
   }
   .layout-dashboard .p-datatable.p-datatable-products .p-datatable-tbody > tr {
@@ -1728,11 +1724,9 @@ a {
   body * {
     visibility: hidden;
   }
-
   #invoice-content * {
     visibility: visible;
   }
-
   #invoice-content {
     width: 100%;
     position: absolute;
@@ -2037,7 +2031,7 @@ a {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 .widget-pricing-card.deal {
-  background-image: linear-gradient(45deg, #105da1 0%, #1f8ce3 100%);
+  background-image: linear-gradient(45deg, rgb(16, 93, 161) 0%, rgb(31, 140, 227) 100%);
 }
 .widget-pricing-card > span {
   display: block;
